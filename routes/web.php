@@ -20,3 +20,8 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+// Me he dado cuenta de que he inicializado el proyecto mal. Para este tipo
+// de protectos se ha de crear directamente desde la terminal, ya que si no
+// la bbdd se configura automaticamente de sqlite y necesito que sea de sql
